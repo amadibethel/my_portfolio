@@ -323,13 +323,13 @@
     .hero-content {
         width: 100%;
         height: auto;
-        margin: 5rem auto;
-        padding: 2rem 2rem;
+        margin: 2rem auto;
+        padding: 1rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: 5rem;
+        column-gap: 2rem;
     }
 
     .left-hero-content {
@@ -340,7 +340,6 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
-        flex-wrap: wrap;
     }
 
     .right-hero-content {
@@ -351,7 +350,6 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
-        flex-wrap: wrap;
     }
 
     .left-hero-content p {
