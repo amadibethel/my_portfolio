@@ -323,32 +323,36 @@
     .hero-content {
         width: 100%;
         height: auto;
-        margin: 10rem auto;
+        margin: 7rem auto;
         padding: 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        column-gap: 5rem;
+        flex-wrap: wrap;
     }
 
     .left-hero-content {
-        width: 60%;
+        width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .right-hero-content {
-        width: 60%;
+        width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .left-hero-content p {
