@@ -337,7 +337,6 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
-        flex-wrap: wrap;
     }
 
     .right-hero-content {
@@ -348,7 +347,6 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
-        flex-wrap: wrap;
     }
 
     .footer {
