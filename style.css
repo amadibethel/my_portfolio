@@ -330,7 +330,7 @@
     }
 
     .left-hero-content {
-        width: 85%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -341,7 +341,7 @@
     }
 
     .right-hero-content {
-        width: 85%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
