@@ -330,8 +330,8 @@
     }
 
     .left-hero-content {
-        width: auto;
-        height: 20rem;
+        width: 100%;
+        height: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -340,8 +340,8 @@
     }
 
     .right-hero-content {
-        width: auto;
-        height: 20rem;
+        width: 100%;
+        height: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
