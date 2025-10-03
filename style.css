@@ -50,6 +50,10 @@
     object-fit: cover;
 }
 
+.brand-logo img {
+    border: 4px solid #00f7ff;
+}
+
 .brand-logo {
     width: 100%;
     height: auto;
@@ -60,12 +64,6 @@
 }
 
 /* Navbar Text Styles */
-
-.brand-logo h2 a {
-    font-size: 1.25rem;
-    font-weight: 350;
-    color: #fff;
-}
 
 .nav-links a,
 .brand-logo a {
