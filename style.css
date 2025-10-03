@@ -326,11 +326,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: 5rem;
+        row-gap: 5rem;
     }
 
     .left-hero-content {
-        width: 100%;
+        width: auto;
         height: 10rem;
         display: flex;
         flex-direction: column;
@@ -340,7 +340,7 @@
     }
 
     .right-hero-content {
-        width: 100%;
+        width: auto;
         height: 10rem;
         display: flex;
         flex-direction: column;
