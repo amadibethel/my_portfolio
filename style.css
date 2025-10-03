@@ -341,6 +341,7 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .right-hero-content {
@@ -351,6 +352,15 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .left-hero-content h1,
+    .right-hero-content h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.75rem;
     }
 
     .left-hero-content p {
