@@ -331,7 +331,7 @@
 
     .left-hero-content {
         width: auto;
-        height: 10rem;
+        height: 15rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -341,7 +341,7 @@
 
     .right-hero-content {
         width: auto;
-        height: 10rem;
+        height: 15rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
