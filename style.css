@@ -334,7 +334,7 @@
     }
 
     .left-hero-content {
-        width: auto;
+        width: 60%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -345,7 +345,7 @@
     }
 
     .right-hero-content {
-        width: auto;
+        width: 60%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -408,7 +408,7 @@
 
 /* Media Queries for Tablets */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     .navbar {
         width: 100%;
         height: auto;
@@ -465,12 +465,14 @@
     .hero-content {
         width: 100%;
         height: auto;
-        margin: 10rem auto;
+        margin: 7rem auto;
         padding: 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        column-gap: 5rem;
+        flex-wrap: wrap;
     }
 
     .left-hero-content {
@@ -481,6 +483,7 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .right-hero-content {
@@ -491,6 +494,7 @@
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .left-hero-content p {
