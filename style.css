@@ -334,8 +334,8 @@
     }
 
     .left-hero-content {
-        width: 60%;
-        height: auto;
+        width: 100%;
+        height: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -345,8 +345,8 @@
     }
 
     .right-hero-content {
-        width: 60%;
-        height: auto;
+        width: 100%;
+        height: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -402,8 +402,6 @@
         align-items: center;
         column-gap: 1.5rem;
     }
-
-
 }
 
 /* Media Queries for Tablets */
@@ -476,8 +474,8 @@
     }
 
     .left-hero-content {
-        width: 60%;
-        height: auto;
+        width: 100%;
+        height: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -487,8 +485,8 @@
     }
 
     .right-hero-content {
-        width: 60%;
-        height: auto;
+        width: 100%;
+        height: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -544,6 +542,5 @@
         align-items: center;
         column-gap: 1.5rem;
     }
-
 
 }
