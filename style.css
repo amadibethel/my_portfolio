@@ -330,23 +330,25 @@
     }
 
     .left-hero-content {
-        width: auto;
-        height: 15rem;
+        width: 50%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .right-hero-content {
-        width: auto;
-        height: 15rem;
+        width: 50%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
     .footer {
