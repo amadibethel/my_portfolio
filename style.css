@@ -258,9 +258,9 @@
 .marquee {
     width: 100%;
     padding: 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.825rem;
     font-weight: 300;
-    color: #fff;
+    color: #00f7ff;
     background-color: #141110;
 }
 
@@ -334,7 +334,7 @@
     }
 
     .left-hero-content {
-        width: 100%;
+        width: 50%;
         height: 2rem;
         display: flex;
         flex-direction: column;
@@ -345,7 +345,7 @@
     }
 
     .right-hero-content {
-        width: 100%;
+        width: 50%;
         height: 2rem;
         display: flex;
         flex-direction: column;
@@ -357,8 +357,8 @@
 
     .left-hero-content h1,
     .right-hero-content h1 {
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 500;
         color: #fff;
         margin-bottom: 0.5rem;
     }
