@@ -1005,8 +1005,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 5rem;
-        row-gap: 1rem;
+        column-gap: 25rem;
     }
 
     .social-media {
@@ -1017,7 +1016,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 1.5rem;
+        column-gap: 1rem;
     }
 
 }
