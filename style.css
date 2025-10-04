@@ -164,7 +164,7 @@
 .left-hero-content:hover {
     box-shadow: -6px 6px 8px #00f7ff;
     transform: scale(1.01);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
     border: 0.5px solid #00f7ff;
     outline: none;
 }
@@ -186,7 +186,7 @@
 .right-hero-content:hover {
     box-shadow: 6px 6px 8px #00f7ff;
     transform: scale(1.01);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
     border: 0.5px solid #00f7ff;
     outline: none;
 }
