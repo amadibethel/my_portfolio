@@ -66,6 +66,13 @@
     --space-xxx-large: 4rem;
     --space-global: 5rem;
     --space-extreme: 20rem;
+
+    /* Shadow System */
+
+    --offset-x: var(--space-xx-small);
+    --offset-y: var(--space-xx-small);
+    --shadow-blur: var(--space-x-small);
+    --shadow-spread: var(--space-x-small);
 }
 
 /* Navigation Bar Styling */
@@ -216,7 +223,7 @@
     background-color: var(--foreground-color);
     padding: var(--space-xx-large);
     border-radius: var(--space-medium);
-    box-shadow: -4px 4px 8px var(--shadow-color);
+    box-shadow: calc(var(--offset-x) * -1) var(--offset-y) var(--shadow-blur) var(--shadow-color);
 }
 
 .left-hero-content:hover {
@@ -238,7 +245,7 @@
     background-color: var(--foreground-color);
     padding: var(--space-xx-large);
     border-radius: var(--space-medium);
-    box-shadow: 4px 4px 8px var(--shadow-color);
+    box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-color);
 }
 
 .right-hero-content:hover {
