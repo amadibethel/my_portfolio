@@ -73,6 +73,12 @@
     --offset-y: var(--space-xx-small);
     --shadow-blur: var(--space-x-small);
     --shadow-spread: var(--space-x-small);
+
+    /* Clamp Responsive System */
+
+    --minimum-clamp: 2rem;
+    --preffered-clamp: 5vw;
+    --maximum-clamp: 3rem;
 }
 
 /* Navigation Bar Styling */
@@ -185,7 +191,9 @@
 
 .left-hero-content h1,
 .right-hero-content h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(var(--font-size-x-large),
+            5vw,
+            var(--font-size-xxx-large));
     font-weight: var(--font-weight-xxx-large);
     color: var(--primary-color);
     margin-bottom: var(--space-small);
