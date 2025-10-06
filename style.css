@@ -191,6 +191,14 @@
     margin-bottom: var(--space-small);
 }
 
+/* Hero Subheading Styling */
+
+.left-hero-content a:hover,
+.right-hero-content a:hover {
+    color: var(--accent-color);
+    transition: all 0.1s ease-in-out;
+}
+
 /* Hero Paragraph Styling */
 
 .left-hero-content p {
@@ -207,6 +215,17 @@
     font-weight: var(--font-weight-large);
     color: var(--primary-color);
     text-align: left;
+}
+
+/* Hero Links Styling */
+
+.left-hero-content a,
+.right-hero-content a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--font-size-xxx-large);
+    font-weight: var(--font-weight-xxx-large);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Left and Right Hero Content Styling */
