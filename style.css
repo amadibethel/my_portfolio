@@ -300,7 +300,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    column-gap: var(--space-global);
+    column-gap: var(--space-x-large);
 }
 
 .footer p {
