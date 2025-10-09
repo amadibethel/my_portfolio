@@ -693,8 +693,6 @@
     .about-content {
         width: 100%;
         height: auto;
-        margin: var(--space-global) auto;
-        padding: var(--space-x-large) var(--space-x-large);
         display: flex;
         flex-direction: column;
         justify-content: center;
