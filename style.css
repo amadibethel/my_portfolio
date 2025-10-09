@@ -445,6 +445,73 @@
     box-shadow: 0 0 10px var(--accent-color);
 }
 
+/* About Section Styling */
+
+.about-section {
+    width: 100%;
+    height: auto;
+    padding: var(--space-x-large) var(--space-x-large);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: var(--space-small);
+    background-image: url('./assets/background_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-content {
+    width: 95%;
+    height: auto;
+    margin: var(--space-global) auto;
+    padding: var(--space-x-large) var(--space-x-large);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: var(--space-large);
+    background-color: var(--foreground-color);
+    border-radius: var(--space-medium);
+}
+
+.about-section h2 {
+    font-size: clamp(var(--font-size-x-large),
+            5vw,
+            var(--font-size-xxx-large));
+    font-weight: var(--font-weight-xxx-large);
+    color: var(--primary-color);
+    margin-bottom: var(--space-small);
+}
+
+.about-intro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--space-large);
+    padding: var(--space-medium);
+}
+
+
+.about-section p {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-large);
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+
 /* Media Queries for Responsiveness */
 
 @media screen and (max-width: 480px) {
@@ -621,6 +688,31 @@
         color: var(--accent-color);
         transform: scale(1.05);
         box-shadow: 0 0 10px var(--accent-color);
+    }
+
+    .about-content {
+        width: 100%;
+        height: auto;
+        margin: var(--space-global) auto;
+        padding: var(--space-x-large) var(--space-x-large);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: var(--space-large);
+        background-color: var(--foreground-color);
+        border-radius: var(--space-medium);
+    }
+
+    .about-intro {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: var(--space-large);
+        padding: var(--space-medium);
     }
 
     .footer {
