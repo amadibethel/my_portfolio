@@ -1688,7 +1688,7 @@
         color: var(--background-color);
         background-color: var(--accent-color);
         cursor: pointer;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.1s ease-in-out;
     }
 
     .contact-form button:hover {
