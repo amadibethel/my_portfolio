@@ -157,8 +157,7 @@
 
 span {
     color: var(--accent-color);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-x-large);
+    font-size: var(--font-size-small);
 }
 
 /* Hero Section Styling */
