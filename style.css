@@ -719,6 +719,13 @@ span {
         padding: var(--space-medium);
     }
 
+    .about-section p {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-large);
+        color: var(--primary-color);
+        text-align: center;
+    }
+
     .footer {
         width: 100%;
         height: auto;
