@@ -98,6 +98,13 @@
     background-color: var(--background-color);
 }
 
+.brand-logo h2 {
+    color: var(--accent-color);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-large);
+    margin-left: var(--space-small);
+}
+
 .navbar .nav-links {
     width: 100%;
     height: auto;
